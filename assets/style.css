@@ -1,0 +1,68 @@
+body {
+    background-image: url(../assets/background.png);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    background: #666666;
+    color: white;
+    text-align: center;
+    width: 100%
+}
+
+.navbar-brand {
+    background: #4aaaa5;
+    color: white;
+}
+
+h1 {
+    padding-left: 10px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 1em;
+}
+
+#profile-pic {
+    padding: 5px 5px 5px 5px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px){
+    body{
+        background:yellow;
+    }
+#contact-me{
+    margin-bottom:50px;
+}
+
+ 
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px){
+    body{
+        background:pink;
+    }
+
+}
+
+@media (min-width: 992px){
+    body{
+        background:blue;
+    }
+    
+
+}

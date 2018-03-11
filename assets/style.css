@@ -41,9 +41,7 @@ h2 {
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px){
-    body{
-        background:yellow;
-    }
+  
 #contact-me{
     margin-bottom:50px;
 }
@@ -53,16 +51,12 @@ h2 {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px){
-    body{
-        background:pink;
-    }
+   
 
 }
 
 @media (min-width: 992px){
-    body{
-        background:blue;
-    }
+
     
 
 }
